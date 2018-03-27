@@ -1,0 +1,4 @@
+{
+    "dbConnectionString" : "Database=manusys;Data Source=us-cdbr-azure-west-b.cleardb.com;User Id=b7f4b7794ee230;Password={0}",
+    "region" : "WUS"
+}
