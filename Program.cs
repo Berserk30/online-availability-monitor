@@ -49,7 +49,7 @@ namespace Manusys
                 }
             }
             
-            var aTimer = new Timer(60000);
+            var aTimer = new Timer(5000);
             aTimer.Elapsed += (source, e) => OnTimedEvent(list);
 
             // Hook up the Elapsed event for the timer. 
