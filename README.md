@@ -2,7 +2,7 @@
 Small cloud service to regularly check for availability of configured web content, alert in case of instability and send regular reports.
 
 1. Compilation
-Use Visual Studio Code to compile the project.
+Use Visual Studio 2017/.NET 4.6.1 to compile the project.
 
 2. Configuration
 Service uses two configurations. Local (per service instance) and Centralized (singleton remote). Local config lives in the config.json file and points to the remote config location (DB connection string). Remove config lives in table called Config in a mysql database.
